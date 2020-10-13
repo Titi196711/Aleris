@@ -15,9 +15,9 @@ require("header.php");
                 <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
-                            <h2 class="animated fadeInDown">Solutions <span>RH</span></h2>
-                            <p class="animated fadeInUp">Découvrez nos solutions basées sur le cloud pour automatiser et piloter vos processus RH, dont la gestion des temps, de la formation ou les revues de performance.</p>
-                            <a href="#about" class="btn-get-started animated fadeInUp scrollto">En savoir plus</a>
+                            <h2 class="animated fadeInDown">Solutions <span>PAIE</span></h2>
+                            <p class="animated fadeInUp">Que vous soyez une PME de 10 ou 1000 salariés nous sommes à vos côtés pour gérer, fiabiliser et optimiser votre production de bulletins de paie.</p>
+                            <!--<a href="#about" class="btn-get-started animated fadeInUp scrollto">En savoir plus</a>-->
                         </div>
                     </div>
                 </div>
@@ -26,9 +26,9 @@ require("header.php");
                 <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
-                            <h2 class="animated fadeInDown">Solutions <span>PAIE</span></h2>
-                            <p class="animated fadeInUp">Que votre effectif soit local ou international, nous pouvons optimiser le processus de rémunération en vous libérant des tâches chronophages à faible valeur ajoutée.</p>
-                            <a href="#about" class="btn-get-started animated fadeInUp scrollto">En savoir plus</a>
+                            <h2 class="animated fadeInDown">Solution <span>SIRH complète et flexible</span></h2>
+                            <p class="animated fadeInUp">Gérez sereinement, en ligne, la vie de votre entreprise et de vos salariés : absences, notes de frais, suivi du temps de travail, reportings RH, bilan social ... Aleris s’occupe de tout !</p>
+                            <!--<a href="#about" class="btn-get-started animated fadeInUp scrollto">En savoir plus</a>-->
                         </div>
                     </div>
                 </div>
@@ -37,9 +37,20 @@ require("header.php");
                 <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
-                            <h2 class="animated fadeInDown">Solutions <span>GESTION DES TEMPS</span></h2>
-                            <p class="animated fadeInUp">Facilitez l’aménagement du temps de travail et la planification.</p>
-                            <a href="#about" class="btn-get-started animated fadeInUp scrollto">En savoir plus</a>
+                            <h2 class="animated fadeInDown">Solutions <span>juridique & administrative</span></h2>
+                            <p class="animated fadeInUp">Quelque soit votre secteur d’activité, nous optimisons les processus en vous libérant des tâches chronophages à faible valeur ajoutée.</p>
+                            <!--<a href="#about" class="btn-get-started animated fadeInUp scrollto">En savoir plus</a>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="carousel-item" style="background-image: url('assets/img/slide/slide-4.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animated fadeInDown"><span>Audit & Conseil</span></h2>
+                            <p class="animated fadeInUp">Optimisez le premier investissement de l’entreprise : votre masse salariale. Aleris dispose d’un savoir-faire unique acquis depuis 20 ans.</p>
+                            <!--<a href="#about" class="btn-get-started animated fadeInUp scrollto">En savoir plus</a>-->
                         </div>
                     </div>
                 </div>
@@ -63,43 +74,40 @@ require("header.php");
     <div class="container">
 
         <div class="section-title">
+
             <h2>Solutions &amp; Services</h2>
         </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                 <div class="icon"><i class="icofont-computer"></i></div>
-                <h4 class="title"><a href="assets/img/SetS/LaPaye.pdf" target="_blank">PAYE</a></h4>
-                <p class="description">Notre équipe d’experts s’occupe de
-                    l’établissement de vos bulletins de paye
-                    jusqu’aux DSN.</p>
+                <h4 class="title"><a href="assets/img/SetS/LaPaye.pdf" target="_blank">PAIE</a></h4>
+                <p class="description">Une équipe d’experts pour établir vos bulletins de paie et déclarations sociales avec un niveau d’externalisation adaptable à vos besoins.</p>
             </div>
             <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                 <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-                <h4 class="title"><a href="assets/img/SetS/LesPortailsCollaboratifs.pdf" target="_blank">PORTAIL COLLABORATIF</a></h4>
-                <p class="description">Pour être au plus près de vos bulletins de paye
-                    tout en restant dans la simplicité</p>
+                <h4 class="title"><a href="assets/img/SetS/LesPortailsCollaboratifs.pdf" target="_blank">Solution SIRH</a></h4>
+                <p class="description">Un portail collaboratif pour vous et pour vos salariés.</p>
             </div>
             <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon"><i class="icofont-earth"></i></div>
-                <h4 class="title"><a href="assets/img/SetS/LaGestionJuridique.pdf" target="_blank">GESTION JURIDIQUE</a></h4>
-                <p class="description">Sécurisez votre processus de gestion juridique du personnel en vous appuyant sur un expert.</p>
+                <h4 class="title"><a href="assets/img/SetS/LaGestionJuridique.pdf" target="_blank">Gestion Juridique</a></h4>
+                <p class="description">Sécurisez vos processus de gestion juridique en vous appuyant sur le SIRH et sur notre expertise.</p>
             </div>
             <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon"><i class="icofont-image"></i></div>
-                <h4 class="title"><a href="assets/img/SetS/GestionAdministrativeetJuridique.pdf" target="_blank">GESTION ADMINISTRATIVE</a></h4>
-                <p class="description">De l’entrée à la sortie du collaborateur, nous vous accompagnons tout au long du processus</p>
+                <h4 class="title"><a href="assets/img/SetS/GestionAdministrativeetJuridique.pdf" target="_blank">Gestion Administrative</a></h4>
+                <p class="description">De l’entrée à la sortie du salarié, nous vous accompagnons à chaque étape du processus.</p>
             </div>
             <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="icofont-settings"></i></div>
-                <h4 class="title"><a href="assets/img/SetS/GestionAdministrativeetJuridique.pdf" target="_blank">GESTION SOCIALE</a></h4>
-                <p class="description">De la mise en place des Délégués du Personnel au règlement intérieur, nous vous aidons à respecter vos obligations sociales.</p>
+                <h4 class="title"><a href="assets/img/SetS/GestionAdministrativeetJuridique.pdf" target="_blank">Gestion Sociale</a></h4>
+                <p class="description">De la mise en place du CSE, au règlement intérieur, nous vous aidons à respecter vos obligations sociales.</p>
             </div>
             <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon"><i class="icofont-tasks-alt"></i></div>
-                <h4 class="title"><a href="assets/img/SetS/VisitesMedicales.pdf" target="_blank">VISITES MEDICALES</a></h4>
-                <p class="description">Sujet de plus en plus complexe et stratégique, la santé au travail des collaborateurs concerne
-                    toutes les entreprises</p>
+                <h4 class="title"><a href="assets/img/SetS/VisitesMedicales.pdf" target="_blank">Audit & Conseil</a></h4>
+                <p class="description">Anticiper un contrôle URSSAF, optimiser votre masse salariale, autant de sujets traités grâce à nos outils et notre méthodologie.</p>
             </div>
         </div>
 
@@ -158,8 +166,8 @@ require("header.php");
             <div class="section-title">
                 <h2>L'équipe</h2>
                 <p>Jeune, dynamique, à votre écoute, ils répondront à toutes vos questions.</p>
-                <a href="equipe.php">
-                    <img src="assets/img/BGeneTeamcchloeperez-2(pp_w768_h439).jpg" alt="Toute l'équipe" title="Aleris au complet" id="equipe" class="row align-items-center img-fluid img-responsive">
+                <a href="equipe_fixe.php">
+                    <img src="assets/img/team/IMG_3386.jpg" alt="Toute l'équipe" title="Aleris au complet" id="equipe" class="row align-items-center img-fluid img-responsive">
                 </a>
             </div>
         </div>
@@ -188,18 +196,18 @@ require("header.php");
                 <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="info-box">
                         <a href="mailto:contact@aleris.com?Subject=Aleris%20demande" target="_top">
-                        <i class="bx bx-envelope"></i>
-                        <h3></h3><!--Notre Email-->
-                        <p>contact@aleris.fr</p></a>
+                            <i class="bx bx-envelope"></i>
+                            <h3></h3><!--Notre Email-->
+                            <p>contact@aleris.fr</p></a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                     <div class="info-box ">
                         <a href="tel:+33186390140">
-                        <i class="bx bx-phone-call"></i>
-                        <h3></h3><!--Appelez-nous-->
-                        <p> 01 86 39 01 40</p></a>
+                            <i class="bx bx-phone-call"></i>
+                            <h3></h3><!--Appelez-nous-->
+                            <p> 01 86 39 01 40</p></a>
                     </div>
                 </div>
 

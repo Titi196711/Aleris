@@ -3,7 +3,7 @@ require 'header.php';
 ?>
 <div class="container">
     <hr>
-    <h1>CONDITIONS GENERALES DE VENTE 2020</h1>
+    <h2>CONDITIONS GENERALES DE VENTE 2020</h2>
     <hr>
 
     <h3>1. OBJET</h3>

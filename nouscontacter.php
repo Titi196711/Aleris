@@ -15,7 +15,7 @@ require('src/class.phpmailer.php');
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="form.css" >
+    <!--<link rel="stylesheet" href="form.css" >-->
 
 </head>
 <body >
@@ -94,7 +94,7 @@ require('src/class.phpmailer.php');
                                     <input type="text" list="convention" placeholder="Convention Collective" id="convent" name="convention" maxlength="300"/>
                                     <datalist id="convention"> 
                                         <script>
-                                            src = "ccn.json";
+                                            src = "assets/js/ccn.json";
                                             for (let i = 0; i < ccn.length; i++) {
                                                 document.getElementById("convention").innerHTML += ("<option>" + ccn[i].ccn + "</option>"); //value="+ccn[i].ccn+"
                                             }
@@ -181,10 +181,11 @@ if (isset($_POST['btnContactUs'])) {
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->CharSet = 'UTF-8';
-    $mail->setFrom('tvoizard@gmail.com'); // Personnaliser l'envoyeur
+    $mail->setFrom('contact@aleris.fr'); // Personnaliser l'envoyeur
 //    $mail->setFrom('titi@localhost.com');
-    $mail->addAddress('arulfx78180@gmail.com', 'The great Arul'); // Ajouter le destinataire
-    $mail->addAddress('tvoizard@gmail.com', 'Le petit titi'); // Ajouter le destinataire
+//    $mail->addAddress('arulfx78180@gmail.com', 'The great Arul'); // Ajouter le destinataire
+//    $mail->addAddress('tvoizard@gmail.com', 'Le petit titi'); // Ajouter le destinataire
+    $mail->addAddress('odefontenay@aleris.fr', 'The Big boss'); // Ajouter le destinataire
     $mail->Subject = 'Message du Formulaire depuis le site Aleris.fr : Contact';
     $mail->Body = 'Bonjour, ';
     $mail->Body .= '<br>';
@@ -276,11 +277,14 @@ require('footer.php');
         let valide = /^0[1-7]\d{8}$/;
         if (valide.test(num)) {
 //        alert('Bon numéro !');
-          document.getElementById('phonecontact').style.color = "black";
+            document.getElementById('phonecontact').style.color = "black";
         } else {
             document.getElementById('phonecontact').style.color = "red";
 //            alert('Mauvais numéro ! Le numéro de téléphone doit commencer par 01 à 07 et doit être suivi de 8 chiffres. Merci.');
         }
     }
+//Coloriage du menu en orange    
+//            $("#menu_nousrecrutons").css("color", "#06E3CC");
+    $("#menu_nouscontacter").toggleClass("menu_nouscontacter");
 
 </script>

@@ -5,7 +5,7 @@ require("header.php");
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="form.css">
+    <!--<link rel="stylesheet" href="form.css">-->
     <!--<script src="form2.js"></script>-->
 </head>
 <body >
@@ -33,7 +33,7 @@ require("header.php");
                                     <input type="text" list="convention" placeholder="Convention Collective" id="convent" name="convention" maxlength="100"/>
                                     <datalist id="convention"> 
                                         <script>
-                                            src = "ccn.json";
+                                            src = "/assets/js/ccn.json";
                                             for (let i = 0; i < ccn.length; i++) {
                                                 document.getElementById("convention").innerHTML += ("<option>" + ccn[i].ccn + "</option>"); //value="+ccn[i].ccn+"
                                             }

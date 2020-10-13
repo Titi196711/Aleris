@@ -1,7 +1,7 @@
 <?php
 require("header.php");
 ?>
-<link href="formulaire.css" rel="stylesheet">
+<link href="assets/css/formulaire.css" rel="stylesheet">
 
     <div class="main">
         <!-- Sign up form -->

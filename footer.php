@@ -21,7 +21,7 @@
                             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
-                        <a href="https://www.linkedin.com/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        <a href="http://linkedin.com/company/aleris-rh" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                     </div>    
                 </div>
 
@@ -29,7 +29,7 @@
                     <h4>Liens</h4>
                     <ul>
                         <!--<li><i class="bx bx-chevron-right"></i> <a href="index.php">Page d'accueil</a></li>-->
-                        <li><i class="bx bx-chevron-right"></i> <a href="CGV.php">Conditions Générales de Ventes</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="CGV.php">Conditions Générales de Vente</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="RGPD.php">RGPD</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="mentions_legales.php">Mentions Légales</a></li>
                     </ul>
@@ -81,7 +81,7 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-<script src="recherche.js"></script>
+<script src="assets/js/recherche.js"></script>
 
 </body>
 

@@ -4,7 +4,7 @@ require 'header.php';
 
 <div class="container">
     <hr>
-    <h1>CONDITIONS GENERALES REGLEMENT GENERAL DE LA PROTECTION DES DONNEES (RGPD) 2020</h1>
+    <h2>REGLEMENT GENERAL DE LA PROTECTION DES DONNEES (RGPD) 2020</h2>
     <hr>
 
     <h3>1. Définitions</h3>

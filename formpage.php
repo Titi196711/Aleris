@@ -1,6 +1,5 @@
 <?PHP
 require("header.php");
-
 require('src/PHPMailer.php');
 require('src/SMTP.php');
 require('src/Exception.php');
@@ -25,9 +24,10 @@ require('src/class.phpmailer2.php');
             <div class="container">
                 <div class="row center-block justify-content-center">
                     <div class="col-md-6 col-md-offset-3">
-                        <h2>Envoyez nous votre candidature</h2> 
-                        <p> Nous la traiterons le plus vite possible !</p>
+
                         <form role="form" method="post" id="reused_form" enctype="multipart/form-data">
+                            <h2>Envoyez nous votre candidature au format PDF</h2> 
+                            <p> Nous la traiterons le plus vite possible !</p>
                             <div class="row"><!--action='formpage_mail.php' -->
                                 <div class="col-sm-6 form-group">
                                     <label for="firstname"><i class="zmdi zmdi-account"></i></label>
@@ -57,7 +57,7 @@ require('src/class.phpmailer2.php');
                             <div class="row">
                                 <div class="col-sm-12 form-group">
                                     <label for="fichierjoint"><i class="zmdi zmdi-upload"></i></label>
-                                    <input type="file" name="fichierjoint" id="fichierjoint" class="btn btn-primary btn-lg active" accept=".pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required />    
+                                    <input type="file" name="fichierjoint" id="fichierjoint" class="btn btn-primary btn-lg active" accept=".pdf" onchange="validFileType()" required />    
                                 </div>
                             </div>
                             <div class="row">
@@ -66,8 +66,17 @@ require('src/class.phpmailer2.php');
                                 </div>
                             </div>
                         </form>
-                        <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Votre message est parti !</h3> </div>
-                        <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Désolé, votre message n'est pas parti.</div>
+                        <div id="success_message" style="width:100%; height:100%; display:none; "> 
+                            <h3>
+                                Votre candidature est partie. Nous la traiterons le plus vite possible.
+                            </h3> 
+                        </div>
+                        <div id="error_message" style="width:100%; height:100%; display:none; "> 
+                            <h3>
+                                Error
+                            </h3> 
+                            Désolé, votre message n'est pas parti.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -80,9 +89,11 @@ if (isset($_POST['btnContactCV'])) {
 
     $mailcv = new PHPMailer\PHPMailer\PHPMailer();
     $mailcv->CharSet = 'UTF-8';
-    $mailcv->setFrom('tvoizard@gmail.com'); // Personnaliser l'envoyeur
-    $mailcv->addAddress('arulfx78180@gmail.com', 'The great Arul'); // Ajouter le destinataire
-    $mailcv->addAddress('tvoizard@gmail.com', 'Le petit titi'); // Ajouter le destinataire
+//    $mailcv->setFrom('tvoizard@gmail.com'); // Personnaliser l'envoyeur
+//    $mailcv->addAddress('arulfx78180@gmail.com', 'The great Arul'); // Ajouter le destinataire
+//    $mailcv->addAddress('tvoizard@gmail.com', 'Le petit titi'); // Ajouter le destinataire
+    $mailcv->setFrom('contact@aleris.fr'); // Personnaliser l'envoyeur
+    $mailcv->addAddress('odefontenay@aleris.fr', 'The Big Boss'); // Ajouter le destinataire
     $mailcv->Subject = 'Message du Formulaire CV : Envoyer nous votre demande';
     $mailcv->Body = 'Bonjour, ';
     $mailcv->Body .= '<br>';
@@ -111,13 +122,13 @@ if (isset($_POST['btnContactCV'])) {
 //    $mailcv->AddAttachment($_FILES['fichierjoint']['tmp_name']);
     $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['fichierjoint']['name']));
     if (move_uploaded_file($_FILES['fichierjoint']['tmp_name'], $uploadfile))
-    $mailcv->addAttachment($uploadfile, $_FILES['fichierjoint']['name']);
+        $mailcv->addAttachment($uploadfile, $_FILES['fichierjoint']['name']);
 //    $mailcv->addAttachment($path, $name);
     $mailcv->isHTML(true); // Paramétrer le format des emails en HTML ou non
- 
+
     $mailcv->send();
 
- 
+
     if (!$mailcv->send()) {
 //        echo 'Erreur, message non envoyé.';
 //        echo 'Mailer Erreur : ' . $mailcv->ErrorInfo;
@@ -150,32 +161,53 @@ require('footer.php');
 <script>
     function isEmail(email) {
         var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-       if(!regex.test(email)) {
-           return false;
-        }else{
-           return true;
+        if (!regex.test(email)) {
+            return false;
+        } else {
+            return true;
         }
     }
     function isemailvalid() {
 //        alert(document.getElementById('mailcontact').value);
         if (isEmail(document.getElementById('email').value)) {
-            $("#btnContactCV").prop("disabled",false);
+            $("#btnContactCV").prop("disabled", false);
         } else {
             alert("Votre Email n'est pas valide. L'envoi du message est bloqué.");
-            $("#btnContactCV").prop("disabled",true);
+            $("#btnContactCV").prop("disabled", true);
         }
     }
 
-function checknum(num){
-    let valide=/^0[1-7]\d{8}$/;
-    if(valide.test(num)){
+    function checknum(num) {
+        let valide = /^0[1-7]\d{8}$/;
+        if (valide.test(num)) {
 //        alert('Bon numéro !');
-          document.getElementById('phone').style.color = "black";
-    }
-    else{
+            document.getElementById('phone').style.color = "black";
+        } else {
 //        alert('Mauvais numéro !');
-          document.getElementById('phone').style.color = "red";
+            document.getElementById('phone').style.color = "red";
+        }
     }
-}
+
+    function validFileType(fichier) {
+        let fileTypes = [
+            'application/pdf'
+        ];
+        fichier = document.getElementById('fichierjoint').files[0];
+        console.log("Type de fichier :" + fichier.type);
+        for (var i = 0; i < fileTypes.length; i++) {
+            if (fichier.type === fileTypes[i]) {
+                return true;
+            } else {
+                alert("Seul le type .PDF est autorisé. Merci.");
+                document.getElementById('fichierjoint').value = "";
+                return false;
+            }
+        }
+    }
     
+//Coloriage du menu en orange     
+//            $("#menu_ogelie").css("color", "#06E3CC");           
+//            $("#menu_nousrecrutons").css("color", "#06E3CC");
+            $("#menu_aleris").toggleClass("menu_aleris");
+            $("#menu_nousrecrutons").toggleClass("menu_nousrecrutons");
 </script>

@@ -12,7 +12,7 @@ require("header.php");
 
                 <div class="section-title">
                     <h2>L'équipe</h2>
-                    <p>Jeune, dynamique, à votre écoute, ils répondent à toutes vos questions.</p>
+                    <p>Jeunes, dynamiques, à votre écoute, ils répondent à toutes vos questions.</p>
                 </div>
 
                 <script>
@@ -20,7 +20,6 @@ require("header.php");
                     $(document).ready(function () {
                         $('[data-toggle="popover"]').popover();
                     });
-                </script>
                 </script>
                <!--1-->
                 <div class="row">
@@ -69,7 +68,7 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-content="Je travaille chez Aleris depuis 2008">
+                                   data-content="Consultante depuis Janvier 2007. Je suis à votre écoute, vous conseille et établit vos paies dans le respect de la législation sociale.">
                                     <img src="assets/img/team/lefevre_benedicte.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
@@ -88,7 +87,7 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-content="Je travaille chez Aleris depuis 2008">
+                                   data-content="Consultante chez Aleris depuis octobre 2013.">
                                     <img src="assets/img/team/celine.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
@@ -110,7 +109,7 @@ require("header.php");
                                    data-offset="0, 120"
                                    data-container="body"
                                    html="true"
-                                   data-content="Je travaille chez Aleris depuis 2008">   
+                                   data-content="Consultante chez ALERIS depuis 2019, je suis à votre écoute et vous conseille dans la gestion de la Paie et les Ressources Humaines.">   
                                     <img src="assets/img/team/abrantes_christelle.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
@@ -167,7 +166,7 @@ require("header.php");
                                    data-trigger="hover"
                                    data-offset="0, 120"
                                    data-content="Je travaille chez Aleris depuis 2008">
-                                    <img src="assets/img/team/silouette_femme6b.jpg" class="img-fluid" alt="Photo Individuelle">
+                                    <img src="assets/img/team/heiniger_fadia.jpg" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
                             <div class="member-info">
@@ -205,14 +204,12 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-container="body"
-                                   html="true"
-                                   data-content="Je travaille chez Aleris depuis 2008">   
-                                    <img src="assets/img/team/silouette_femme6b.jpg" class="img-fluid" alt="Photo Individuelle">
+                                   data-content="Je travaille chez Aleris depuis 2008">    
+                                    <img src="assets/img/team/marie.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
                             <div class="member-info">
-                                <h4>Lila</h4>
+                                <h4>Marie</h4>
                                 <span>Consultante</span>
                             </div>
                         </div>
@@ -225,12 +222,14 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-content="Je travaille chez Aleris depuis 2008">    
-                                    <img src="assets/img/team/marie.png" class="img-fluid" alt="Photo Individuelle">
+                                   data-container="body"
+                                   html="true"
+                                   data-content="Consultante Senior depuis Février 2015 chez Aléris, je vous apporte mon expertise dans le domaine de la paie et plus largement dans la Gestion RH. Réactivité, Ecoute et Implication sont mes trois mots clés pour vous garantir une collaboration Optimale.">   
+                                    <img src="assets/img/team/silouette_femme6b.jpg" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
                             <div class="member-info">
-                                <h4>Marie</h4>
+                                <h4>Maud</h4>
                                 <span>Consultante</span>
                             </div>
                         </div>
@@ -243,14 +242,12 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-container="body"
-                                   html="true"
-                                   data-content="Je travaille chez Aleris depuis 2008">   
-                                    <img src="assets/img/team/silouette_femme6b.jpg" class="img-fluid" alt="Photo Individuelle">
+                                   data-content="Spécialisé dans les visites médicales, je suis à votre écoute. Je suis chez Aleris depuis Août 2019.">    
+                                    <img src="assets/img/team/huvelin_morgane.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
                             <div class="member-info">
-                                <h4>Maud</h4>
+                                <h4>Morgane</h4>
                                 <span>Consultante</span>
                             </div>
                         </div>
@@ -265,12 +262,14 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-content="Je travaille chez Aleris depuis 2008">    
-                                    <img src="assets/img/team/silouette_femme6b.jpg" class="img-fluid" alt="Photo Individuelle">
+                                   data-container="body"
+                                   html="true"
+                                   data-content="Je travaille chez Aleris depuis 2017.">   
+                                    <img src="assets/img/team/zouari_noura.jpg" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
                             <div class="member-info">
-                                <h4>Morgane</h4>
+                                <h4>Noura</h4>
                                 <span>Consultante</span>
                             </div>
                         </div>
@@ -321,7 +320,7 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-content="Je travaille chez Aleris depuis 2008">
+                                   data-content="Consultant Confirmé chez Aleris. Je suis à votre écoute et vous conseille en Administration du personnel,Paie et RH. Je suis chez Aleris depuis 2016.">
                                     <img src="assets/img/team/safi.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
@@ -362,7 +361,7 @@ require("header.php");
                                    data-container="body"
                                    html="true"
                                    data-content="Je travaille chez Aleris depuis 2008">   
-                                    <img src="assets/img/team/silouette_femme6b.jpg" class="img-fluid" alt="Photo Individuelle">
+                                    <img src="assets/img/team/maze_sandra.jpg" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
                             <div class="member-info">
@@ -379,7 +378,7 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-content="Je travaille chez Aleris depuis 2008">    
+                                   data-content="Consultante depuis 2007, je suis à même de vous conseiller dans vos démarches sur la gestion de la paie.">    
                                     <img src="assets/img/team/stephanie.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
@@ -397,8 +396,8 @@ require("header.php");
                                    data-placement="bottom"
                                    data-trigger="hover"
                                    data-offset="0, 120"
-                                   data-content="Je travaille chez Aleris depuis 2008">
-                                    <img src="assets/img/team/valentine.png" class="img-fluid" alt="Photo Individuelle">
+                                   data-content="Consultante chez Aleris depuis 2017, je vous conseille et vous accompagne dans la gestion sociale de votre entreprise.">
+                                    <img src="assets/img/team/valentine2.png" class="img-fluid" alt="Photo Individuelle">
                                 </a>
                             </div>
                             <div class="member-info">
@@ -413,6 +412,16 @@ require("header.php");
         </section>
     </body>
 </html>
+
+<script>
+    //Coloriage du menu en orange     
+//            $("#menu_ogelie").css("color", "#06E3CC");           
+//            $("#menu_nousrecrutons").css("color", "#06E3CC");
+            $("#menu_aleris").toggleClass("menu_aleris");
+            $("#menu_equipe").toggleClass("menu_equipe");
+
+</script>
+    
 <?php
 require("footer.php");
 ?>

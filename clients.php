@@ -9,7 +9,7 @@ require("header.php");
         <div class="section-title">
             <h2>Nos clients</h2>
             <p>Notre démarche qualité est orientée vers la satisfaction de nos clients.
-            Chaque client est unique, nous serons donc toujours à vos côtés pour répondre à vos besoins spécifiques et vous donner la certitude d’avoir fait le meilleur choix. Vous satisfaire, c’est avant tout vous accompagner, vous écouter, anticiper vos demandes, même vous étonner parfois.</p>
+            Chaque client est unique, nous serons donc toujours à vos côtés pour répondre à vos besoins spécifiques et vous donner la certitude d’avoir fait le meilleur choix. Vous satisfaire, c’est avant tout vous accompagner, vous écouter, anticiper vos demandes et même... vous étonner parfois.</p>
         </div>
 
         <div class="row">
