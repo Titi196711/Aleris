@@ -13,9 +13,9 @@ require("header.php");
             </div>
             <ol>
                 <li><h2>Matériel</h2></li>
-                <p>Le logiciel s’utilise nativement sur un poste Windows XP SP 3 Vista, 7 8 Windows 10 Serveurs à partir de 2003 tous en 32 bits ou 64 bits</p>
-                <p>Par conséquent, pour les utilisateurs de <strong>Mac</strong> il est nécessaire d’installer un système de virtualisation puis Windows afin d’utiliser le logiciel</p>
-                <p>Ci-dessous, deux liens renvoyant à des produits de virtualisation permettant l’exécution de Windows sur Mac</p>
+                <p>Le logiciel s’utilise nativement sur un poste Windows XP SP 3 Vista, 7 8 Windows 10 Serveurs à partir de 2003 tous en 32 bits ou 64 bits.</p>
+                <p>Par conséquent, pour les utilisateurs de <strong>Mac</strong> il est nécessaire d’installer un système de virtualisation puis Windows afin d’utiliser le logiciel.</p>
+                <p>Ci-dessous, deux liens renvoyant à des produits de virtualisation permettant l’exécution de Windows sur Mac.</p>
                 <p><a href="https://www.parallels.com/products/desktop/">https://www.parallels.com/products/desktop</a></p>
                 <p><a href="https://www.virtualbox.org/">https://www.virtualbox.org</a></p>
                 <li><h2>Création d'un raccourci sur le bureau</h2></li>
@@ -105,7 +105,7 @@ require("header.php");
                     <strong>Note d’information</strong> le support étendu d'Internet Explorer 10 prendra fin le 31 janvier 2020
                     Internet Explorer 11 et Microsoft Edge continueront de bénéficier de mises à jour de sécurité  et du support technique pendant la durée de leur cycle de vie
                     Nous vous recommandons de vous mettre à niveau vers Internet Explorer 11 ou Microsoft
-                    Edge (sur Windows 10 pour utiliser Silae)
+                    Edge (sur Windows 10 pour utiliser Silae).
                 </p>
                 <p class="clear">Lien de téléchargement IE 11
                     <a href="https://support microsoft com/fr-fr/help/17621/internet explorer-downloads">https://support microsoft com/fr-fr/help/ 17621 /internet explorer-downloads</a></p>
@@ -144,7 +144,7 @@ require("header.php");
                 </div>
 
                 <li><h2>Edge Chromium<img class="logo" alt="logo microsoft edge" src="assets/img/prerequis_silae/logo_edge.png"></h2></li>
-                <p>Par défaut, l’application ne se lance pas dans Edge Chromium</p>
+                <p>Par défaut, l’application ne se lance pas dans Edge Chromium.</p>
                 <p><strong>Dans ce cas</strong></p>
 
                 <div class='d-flex flex-column justify-content-around align-items-center'>
