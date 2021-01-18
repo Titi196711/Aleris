@@ -109,27 +109,6 @@ require("header.php");
     <!-- =======  Cabinet d'expertise sociale - fin ======= -->
     <br>
 
-    <div class="container">
-
-        <div class="row no-gutters">
-            <!--                <div class="col-lg-6 video-box">
-                                <img src="assets/img/about.jpg" class="img-fluid" alt="">
-                                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-                            </div>-->
-            <div class="col-lg-12 d-flex flex-column justify-content-center about-content"></div>
-            <div class="section-title mx-auto" data-aos="fade-up"data-aos-delay="100">
-                <h2>Cycle de paie Aleris</h2>
-            </div> 
-            <div class="col-lg-12 embed-responsive embed-responsive-16by9">
-                <video controls poster="assets/img/Cycle de paie ALERIS.jpg">
-                    <source src="assets/img/Cycle de paie ALERIS_1.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-
-    </div>     
-
-
     <!-- =======   motivations de l'équipe ======= -->
     <div class="container">
         <div class="section-title" data-aos="fade-up"data-aos-delay="100">
