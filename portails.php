@@ -12,7 +12,7 @@ require("header.php");
             <p>Silae est l’outil qui nous sert à produire vos bulletins de paye, et tous les états que nous mettons à votre disposition sur le portail collaboratif.</p>
             <p>L’accès à ce portail est inclus dans votre abonnement paie & déclarations. Nous délivrons à la personne en charge de la paye un identifiant et un mot de passe qui lui permettront de se connecter :</p>
             <!--<img class='img-responsive mx-auto col-lg-12' alt="capture de l'ecran silae : dossier paie" src='assets/img/prerequis_silae/silae_dossier_paie.png'/>-->
-            <h3>Consulation Aléris</h3>
+            <h3>Consultation Aléris</h3>
             <div class="col-lg-12 embed-responsive embed-responsive-16by9 d-block mx-auto">
                 <video controls="controls" poster="assets/img/capture_consultation_Aleris.png" preload="auto">
                     <source src="assets/img/Consultation ALERIS_1.mp4" type="video/mp4">
