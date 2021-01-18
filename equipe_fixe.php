@@ -6,7 +6,7 @@ require("header.php");
         <div class="col-xl-6 col-sm-12 mb-5">
             <img src="assets/img/team/olivier.jpg" alt="image du chef">
         </div>
-        <div class="col-xl-6 col-sm-12 my-auto">
+        <div class="col-xl-6 col-sm-12 my-auto align-items-center">
             <p>Après un parcours de plus de 15 ans dans diverses fonctions RH, Olivier s'est lancé dans l'aventure entrepreunariale en 2008. Il avait une volonté : Retirer une épine du pied de chaque dirigeant de PME : la gestion sociale du personnel. Après de très nombreuses rencontres et de nombreuses heures de recherches, la solution était là : créer le 1er cabinet d'expertise sociale.</p>
         </div>
     </div>

@@ -127,6 +127,7 @@ require("header.php");
                         <i class="icofont-simple-smile" style="color: #F39555;"></i><!--#20b38e-->
                         <span data-toggle="counter-up" id="chifcolor">562</span>
                         <p>Clients Heureux</p> 
+                        <br/>
                     </div>
                 </div>
 
@@ -167,7 +168,7 @@ require("header.php");
                 <h2>L'équipe</h2>
                 <p>Jeune, dynamique, à votre écoute, ils répondront à toutes vos questions.</p>
                 <a href="equipe_fixe.php">
-                    <img src="assets/img/team/IMG_3386.jpg" alt="Toute l'équipe" title="Aleris au complet" id="equipe" class="row align-items-center img-fluid img-responsive">
+                    <img src="assets/img/team/IMG_3386.jpg" alt="Toute l'équipe" title="Aleris au complet" id="equipe" class="row align-items-center" width='100%'><!-- img-fluid img-responsive-->
                 </a>
             </div>
         </div>
